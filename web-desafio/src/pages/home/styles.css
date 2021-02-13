@@ -1,0 +1,165 @@
+.clientsTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #347DE4;
+    font-size: 20px;
+}
+
+.addClients{
+    background-color: #347DE4;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+} 
+
+.addClients:hover{
+    background-color: #509DE4;
+} 
+
+.addClients span{
+    display: flex;
+    padding-left: 10px;
+}
+
+.listClients{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 80vw;
+    padding: 0 10px 0 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.clients hr{
+    margin: 20px 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 24%;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.button span{
+    display: flex;
+    padding-left: 10px;
+}
+
+.relatedGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons-p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 5vw;
+    padding-bottom: 10px;
+}
+
+.button-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.button-p span{
+    display: flex;
+}
+
+.seeMore{
+    background-color: #999;
+    transition: background-color 0.5s;
+    border: 0;
+    color: #000;
+}
+.seeMore:hover{
+    background-color: #aaa;
+}
+
+.related{
+    background-color: #347DE4;
+    transition: background-color 0.5s;
+    color: #fff;
+}
+.related:hover{
+    background-color: #509DE4;
+}
+
+.edit{
+    background-color: #FFBF00;
+    transition: background-color 0.5s;
+    color: #000;
+}
+.edit:hover{
+    background-color: #FFdF00;
+}
+
+.delete{
+    background-color: #FC4D4D;
+    transition: background-color 0.5s;
+    color: #fff;
+    border: 0;
+}
+.delete:hover{
+    background-color: #FC6D6D;
+}
+
+@media (max-width: 650px) {
+    .clientsTitle{
+        font-size: 15px;
+    }
+    .clients{
+        width: 90vw;
+    }
+    .buttons{
+        justify-content: space-around;
+    }
+    .button{
+        width: 30px;
+        height: 30px;
+        font-size: 25px;
+    }
+    .button p{
+        display: none;
+    }
+    .button span{
+        padding: 0;
+    }
+    .buttons-p{
+        width: 20vw;
+    }
+}

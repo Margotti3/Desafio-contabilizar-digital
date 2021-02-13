@@ -1,0 +1,30 @@
+.input{
+    border: 0;
+    border-bottom: 3px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    transition: border 1s;
+}
+.input:focus {
+    border-bottom: 3px solid green;
+}
+.formCadastro {
+    width: 27vw;
+}
+.formCadastro input, selected{
+    margin-bottom: 15px;
+}
+.formSimple {
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+@media (max-width: 650px){
+    .formCadastro{
+        width: 100%;
+    }
+}

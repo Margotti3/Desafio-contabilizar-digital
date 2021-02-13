@@ -1,0 +1,17 @@
+.informationGroup{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.information{
+    width: 50%;
+}
+
+@media (max-width: 650px) {
+    .information{
+        display: flex;
+        flex-direction: column;
+    }
+}
