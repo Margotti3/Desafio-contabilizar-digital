@@ -1,10 +1,12 @@
 # Desafio-contabilizar-digital
 
+  O projeto realizado se trata de um plataforma para cadastro de clientes e pessoas relacionadas com a possibilidade de criar, editar e excluir os mesmos. A única função pedida não realizado é a de login com um email e senha.
+
 ## Como testar
 
   Para testar o projeto, além de clonar o diretório, é necessário que seja armazenada na pasta adequada do seu localhost para que tenha o devido acesso ao banco de dados.
-A conexão com o banco de dados está sendo feita de forma padrão ao utilizado com o XAMPP, porém pode ser facilmente modificada nos arquivos de diretório server-desafio/rc/atabase/onnection.ts e server-desafio/nexfile.ts.
-  O banco de dados utilizado foi MySQL e é preciso para que funcione perfeitamente que você crir um banco de dados com o nome de "desafio". As tabelas e dados necessários serão executados por meio de linha de comando.
+A conexão com o banco de dados está sendo feita de forma padrão ao utilizado com o XAMPP, porém pode ser facilmente modificada nos arquivos de diretório server-desafio/src/atabase/onnection.ts e server-desafio/nexfile.ts.
+  O banco de dados utilizado foi MySQL e é preciso, para que funcione perfeitamente, que você crie um banco de dados com o nome de "desafio". As tabelas e dados necessários serão executados por meio de linha de comando.
   
 ### Linhas de comando para as devidas instalações
   
@@ -23,7 +25,7 @@ npm run knex:seed
 ```
 
 #### Executando o projeto
-  E por fim, para executar o projeto e ver como ficou é necessário que você inicialize seu servidor de local de banco de dados, no meu caso inicializar o MySQL no XAMPP, e executar os seguintes comandos, não se preocupe em esperar o processar terminar pois ele só vai acabar quando vc pedir:
+  E por fim, para executar o projeto e ver como ficou é necessário que você inicialize seu servidor local de banco de dados, no meu caso inicializar o MySQL no XAMPP, e executar os seguintes comandos, não se preocupe em esperar o processar terminar pois ele só vai acabar quando você quiser:
 
 Na pasta "server-desafio"
 ```
@@ -34,3 +36,5 @@ e na pasta "web-desafio"
 ```
 npm start
 ```
+
+para encerrar os processos basta dar um "ctrl + c"
