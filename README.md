@@ -5,7 +5,7 @@
 ## Como testar
 
   Para testar o projeto, além de clonar o diretório, é necessário que seja armazenada na pasta adequada do seu localhost para que tenha o devido acesso ao banco de dados.
-A conexão com o banco de dados está sendo feita de forma padrão ao utilizado com o XAMPP, porém pode ser facilmente modificada nos arquivos de diretório server-desafio/src/atabase/onnection.ts e server-desafio/nexfile.ts.
+A conexão com o banco de dados está sendo feita de forma padrão ao utilizado com o XAMPP, porém pode ser facilmente modificada nos arquivos de diretório server-desafio/src/database/connection.ts e server-desafio/knexfile.ts.
   O banco de dados utilizado foi MySQL e é preciso, para que funcione perfeitamente, que você crie um banco de dados com o nome de "desafio". As tabelas e dados necessários serão executados por meio de linha de comando.
   
 ### Linhas de comando para as devidas instalações
@@ -38,3 +38,10 @@ npm start
 ```
 
 para encerrar os processos basta dar um "ctrl + c"
+
+### Telas
+
+![image](https://user-images.githubusercontent.com/51883509/128617450-07be8ccc-3a3e-44a1-b548-c89ac82d5639.png)
+![image](https://user-images.githubusercontent.com/51883509/128617463-25340bf7-566a-48bc-8cb3-a8f6a9f7fbdb.png)
+![image](https://user-images.githubusercontent.com/51883509/128617470-f8cc5040-46dd-4dbe-baaf-2ace362be587.png)
+![image](https://user-images.githubusercontent.com/51883509/128617479-a4f6e2fd-246b-4fc9-bbf9-57daf87bccbf.png)
